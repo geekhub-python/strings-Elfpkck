@@ -3,5 +3,4 @@
 
 s = input('Enter the string: ')
 first = s[:sum(divmod(len(s), 2))]
-print(first)
 print(s.replace(first, '') + first)
