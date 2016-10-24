@@ -4,4 +4,4 @@
 s = input('Enter the string: ')
 first = s.split('h', 1)
 second = first[1].rsplit('h', 1)
-print(second[0][::-1])
+print('{}h{}h{}'.format(first[0], second[0][::-1], second[1]))
